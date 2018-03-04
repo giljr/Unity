@@ -16,7 +16,6 @@ public class Soldier : MonoBehaviour {
         //Get the enemy actual gameObject
         mEnemy = transform.GetChild(0).gameObject;
         Activate();
-
        
     }
 
@@ -30,8 +29,7 @@ public class Soldier : MonoBehaviour {
 
     private void MoveLeftwards()
     {
-       
-        //Get enemy position and use trig function to move it
+       //Get enemy position and use trig function to move it
         Vector3 enemyPos = mEnemy.transform.position;
         enemyPos.z += Mathf.Cos(0.1f);
 
@@ -40,10 +38,7 @@ public class Soldier : MonoBehaviour {
 
     private void MoveRightwards()
     {
-        //Move to the left
-        mEnemy = transform.GetChild(0).gameObject;
-
-        //Get enemy position and use trig function to move it
+       //Get enemy position and use trig function to move it
         Vector3 enemyPos = mEnemy.transform.position;
         enemyPos.z -= Mathf.Cos(-0.1f);
 
