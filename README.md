@@ -1,7 +1,10 @@
 # Unity
 Unity codes
-Comming Youtube: 
-Here I will share the Unity Game Debut — Part 0 of 10 Project. Welcome!
+Comming Youtube video: soon:) 
+
+Here I will share the Unity Game Debut Project published in medium.com: https://goo.gl/5kQXjd
+
+Part 0 of 10 Project. Welcome!
 
 Part 4 of 10 -  Unity Game Debut - Crosshair & Coding : File(s) : Crosshair.cs
 
